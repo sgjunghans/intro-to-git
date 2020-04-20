@@ -10,9 +10,14 @@
 
 # Git Intermediate
 ## Adding multiple files of a certain type
+* git add *.<filetype>
 
 ## Add all files in directory (including hidden)
+* git add -A
 
 ## Removing files
+* git reset HEAD <file>
 
 ## Ignoring files
+* create .gitignore file
+* add file names to ignore, 1 per line
